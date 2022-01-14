@@ -58,6 +58,8 @@ value of the input time series on each day in the original time series.
   > it will return a dataframe that has all daily max values.
   > 
 
+## Data Scientist questions:
+
 **Q3** Using the provided data, create a feature (model input) that could be useful in predicting
 maximum daily load in the future. Without implementing a model, create a data
 visualization that illustrates how your feature might be of use for the forecasting problem
@@ -73,11 +75,13 @@ developing a model. Include the visualization in your written report.
   > there is a very similar pattern for everyday demand for this specific AMI. Normally, these types of hourly patterns 
   > can be used for hourly forecast, however, can be useful for the daily max forecast as well due to the fact that most 
   > of the max values for this AMI happens in last hours of the day (in case of missing data).
+  > 
   > ![MT_015](pics/pattern.png)
   > 
   > Also, I tried to see if there is any daily relationship between max daily values and day of the week, shown in figure 
   > below. This figure shows that there is a slight relationship between day if the week and max daily demand (such as 
   > higher value in Sundays). 
+  > 
   > ![MT_015](pics/dailymax.png)
 
 
