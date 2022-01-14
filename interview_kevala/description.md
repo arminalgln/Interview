@@ -12,11 +12,12 @@ but don’t spend too much time on this question!
   > set them as the Dataframe index. This will help us to use built-in functions of pandas for time series, such as 
   > easier query for extracting times, max, min functions and group by. For these reasons I used *Q1 block 1* in the code.
   > Also, I plotted all available data for some of AMIs just to see the signature and magnitude of the data. For instance:
-  > 	![MT_015](pics/MT_015.png)
+  > 
+  > ![MT_015](pics/MT_015.png)
   > 
   > Which shows some anomaly data mainly due to data cleaning, or
   > 
-  >    ![MT_015](pics/MT_020.png)
+  > ![MT_015](pics/MT_020.png)
   > 
 > Which we can see some seasonality change in demand, which will be useful for our forecasting purpose.
   
@@ -83,8 +84,8 @@ developing a model. Include the visualization in your written report.
   > correlation coefficient with future max values. Then, for the same AMI mentioned above we get the previous max and
   > mean value window of the higher correlations. For this specific example, results show that for daily max values of previous
   >days, 1, 2 and 7 days of previous days has the highest correlation with their relative future values and 1, 6, 7 for
-  > the daily mean values. Figures below show the corrcoeff of 1 previous days daily max () and 
-  > corrcoeff of 7 previous days daily mean (), which were the highest among all shifted values.
+  > the daily mean values. Figures below show the corrcoeff of 1 previous days daily max (0.8557) and 
+  > corrcoeff of 7 previous days daily mean (0.85045), which were the highest among all shifted values.
   > These figure shows that previous max mean values can be very promising features for daily max forecasting.
   > ![MT_015](pics/maxcoeff1.png)
   > ![MT_015](pics/meancoeff7.png)
