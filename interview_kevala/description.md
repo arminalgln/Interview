@@ -134,10 +134,10 @@ possible solution to evaluate.
 > 
 
 - b.What features (model inputs) would you use?
->Please refer to ``Feature extraction`` section above.
+>Please refer to [Feature extraction](#features-extraction) section above.
 
 - c.What is one prediction algorithm you would try?
->Please refer to ``Model selection`` section above.
+>Please refer to [Model selection](#model-selection) section above.
 
 - d. What sources of error do you anticipate in your model?
 
