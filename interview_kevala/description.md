@@ -1,4 +1,8 @@
-#Kevala Take Home interview (Data science)
+#Kevala Take Home interview (Data Scientist)
+##Author: Armin Aligholian
+[Linkedin](https://www.linkedin.com/in/arminaligholian/)
+\
+[Github](https://github.com/arminalgln/Interview/tree/main/interview_kevala)
 
 ## All candidates questions:
 **Q1**. Load the data and do some exploration. Come up with a few (two or more) simple
